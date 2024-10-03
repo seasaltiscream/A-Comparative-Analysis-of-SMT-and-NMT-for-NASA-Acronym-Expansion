@@ -1,0 +1,2 @@
+# A-Comparative-Analysis-of-SMT-and-NMT-for-NASA-Acronym-Expansion
+This project explores the effectiveness of Neural Machine Translation (NMT) and Statistical Machine Translation (SMT) in expanding acronyms, specifically focusing on those used by NASA in technical documentation. Using a unique dataset of 484 acronyms and their definitions provided by NASA, we assess the accuracy of both translation algorithms. 

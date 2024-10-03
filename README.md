@@ -3,7 +3,7 @@ This project explores the effectiveness of Neural Machine Translation (NMT) and 
 
 **File details**
 - processed_acronyms.jsonl:
-Each line in this file is an acronym found to have more than one defintion. There are 484 acronyms found with multiple definitions suitable for model building. Each line contains information on acronym, definitions, and where found in the corpus. The corpus is the file results_merged.jsonl
+Each line in this file is an acronym found to have more than one defintion. There are 484 acronyms found with multiple definitions suitable for model building. Each line contains information on acronym, definitions, and where found in the corpus. This dataset is taken from NASA's official website: https://data.nasa.gov/Raw-Data/NASA-Acronyms-in-Public-Abstracts/byqb-7uyn/data
 
 - smt4.ipynb:
 This file loads a dataset of acronyms and their definitions from a JSONL file, generates acronyms from definitions using tokenization, and evaluates the match rate between generated and actual acronyms through a test set.
